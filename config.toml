@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "http://test.TCForensics.com"
 languageCode = "en-us"
-title = "Agency"
+title = "TCForensics"
 theme = "hugo-agency-theme"
 publishDir = "docs"
 
@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Peter Theobald TC Forensic"
+  description = "Digital and Computer Forensics"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -33,7 +33,7 @@ googleAnalytics = ""
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    text = "Please visit [home](/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -46,7 +46,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "TC Forensics"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -76,8 +76,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "Delivering expertise in"
+    subtitle = "Digital Forensics"
     buttonText = "Tell me more"
 
 
