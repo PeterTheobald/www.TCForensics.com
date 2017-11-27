@@ -50,7 +50,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Portfolio"
+    portfolio = "Sample-Cases"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -85,26 +85,26 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Digital Forensics, Data Recovery, Breach Response."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Digital Forensics"
+      description = "We are experienced working with attorneys and courts to find, preserve, analyze and present digital evidence from computers, cell phones and other digital devices."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Data Recovery"
+      description = "TC Forensics can recover your lost or deleted data. Whether you have a damaged hard drive or a rogue ex-employee we can find those files and restore them."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Data Breach Response"
+      description = "Has your private data been released to the wild? If a hacker or a simple error has exposed private information we can help determine the extent of what was exposed and how it happened. We will help you prepare an appropriate response and prevent another breach."
       url = "#"
 
   # Portfolio section
@@ -114,8 +114,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Sample-Cases"
+    subtitle = "Some recent examples of matters we've worked on."
 
     [params.portfolio.modal]
       client = "Client"
