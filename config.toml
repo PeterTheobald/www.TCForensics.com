@@ -90,21 +90,21 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-search"
       title = "Digital Forensics"
       description = "We are experienced working with attorneys and courts to preserve, analyze and present digital evidence from computers, cell phones and other digital devices."
       url = "#"
 	  anchor="#portfolio"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
+      icon = "fa-floppy-o"
       title = "Data Recovery"
       description = "TC Forensics can recover your lost or deleted data. Whether you have a damaged hard drive or a rogue ex-employee we can find those files and restore them."
       url = "#"
 	  anchor="#portfolio"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-user-secret"
       title = "Data Breach Response"
       description = "Has your private data been released to the wild? If a hacker or a internal error has exposed private information we can help determine the extent of what was exposed and how it happened. We will help you prepare an appropriate response and prevent another breach."
       url = "#"
