@@ -51,9 +51,9 @@ googleAnalytics = ""
     #logo = "logo.svg"
     services = "Services"
     portfolio = "Sample-Cases"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    about = "About-TCF"
+    team = "Peter-Theobald"
+    contact = "info@TCForensics.com (516) 762-3187"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -66,10 +66,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
 
 
   # Hero section
@@ -92,21 +92,24 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
       title = "Digital Forensics"
-      description = "We are experienced working with attorneys and courts to find, preserve, analyze and present digital evidence from computers, cell phones and other digital devices."
+      description = "We are experienced working with attorneys and courts to preserve, analyze and present digital evidence from computers, cell phones and other digital devices."
       url = "#"
+	  anchor="#portfolio"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Data Recovery"
       description = "TC Forensics can recover your lost or deleted data. Whether you have a damaged hard drive or a rogue ex-employee we can find those files and restore them."
       url = "#"
+	  anchor="#portfolio"
 
     [[params.services.row.list]]
       icon = "fa-lock"
       title = "Data Breach Response"
-      description = "Has your private data been released to the wild? If a hacker or a simple error has exposed private information we can help determine the extent of what was exposed and how it happened. We will help you prepare an appropriate response and prevent another breach."
+      description = "Has your private data been released to the wild? If a hacker or a internal error has exposed private information we can help determine the extent of what was exposed and how it happened. We will help you prepare an appropriate response and prevent another breach."
       url = "#"
-
+	  anchor="#portfolio"
+	  
   # Portfolio section
   [params.portfolio]
     enable = true
