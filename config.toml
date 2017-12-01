@@ -99,7 +99,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-floppy-o"
       title = "Data Recovery"
-      description = "TC Forensics can recover your lost or deleted data. Whether you have a damaged hard drive or a rogue ex-employee we can find those files and restore them."
+      description = "TC Forensics can recover your lost or deleted data. Dead hard drive? Lost Bitcoins? Deleted photos? We can find those files and restore them."
       url = "#"
 	  anchor="#portfolio"
 
