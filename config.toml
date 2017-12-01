@@ -1,4 +1,4 @@
-# Site settings
+# Site settings.
 baseurl = "http://test.TCForensics.com"
 languageCode = "en-us"
 title = "TCForensics"
