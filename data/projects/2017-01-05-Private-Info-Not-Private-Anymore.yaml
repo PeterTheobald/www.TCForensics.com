@@ -7,4 +7,4 @@ preview: escape-preview.png
 client: #
 clientLink: "#"
 category: Medical data breach
-description: <br><br>*Note details have been changed to protect the parties privacy
+description: A medical facility accidentally misconfigured a server to allow public access to their scheduling. This was brought to their attention when an upset patient googled his name to find his diagnosis and procedures visible. I was brought in to make sure they had correctly corrected the error and to discover the extent of patient information that had been released. I was able to scour the server log files and compile a detailed list of every file that was accessed. I cross referenced the accesses against their facility locations and staff home IP addresses to determine which accesses were authorized. Luckily the breach turned out to be very minor which I was able to document in detail for their records and reporting requirements. <br><br>*Note details have been changed to protect the parties privacy
