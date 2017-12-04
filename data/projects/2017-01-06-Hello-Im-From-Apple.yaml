@@ -1,10 +1,10 @@
 modalID: 6
 title: Hello I'm Calling to Help
-subtitle: Helpful tech support called out of the blue to "fix" this doctor's computer
+subtitle: A tech support rep called out of the blue to "fix" this doctor's computer
 date: 2017-01-06
 img: dreams.png
 preview: dreams-preview.png
 client: #
 clientLink: "#"
 category: Medical data breach
-description: This tech-unsavvy staff member at a small medical practice got an unexpected call from a helpful tech support engineer with a heavy foreign accent claiming to be from Microsoft and offering to fix the problems he had somehow detected in their computer. The staff member followed the caller's instructions and set up remote access to the medical office's computer. After over 30 minutes the staff member thought to notify the doctor who, alarmed, had her pull the plug immediately. I was brought in to examine the hard drive and determine if any patient data had been accessed or downloaded and to help determine if there was a duty to report the incident. I made a timeline of every file and document accessed and carefully examined every file touched from the moment the remote person gained access. I found that he had installed more remote access back-doors but at no time had he touched any files with patient data before the plug was pulled. We backed up the important data and wiped the computer clean.<br><br>*Note details have been changed to protect the parties privacy
+description: This tech-unsavvy staff member at a small medical practice got an unexpected call from a helpful tech support engineer with a heavy foreign accent claiming to be from Microsoft and offering to fix the problems he had somehow detected in their computer. The staff member followed the caller's instructions and set up remote access to the medical office's computer. After over 30 minutes the staff member thought to notify the doctor who, alarmed, had her pull the plug immediately. I was brought in to examine the hard drive and determine if any patient data had been accessed or downloaded and to help determine if there was a duty to report the incident. I made a timeline of every file and document accessed and carefully examined every file touched from the moment the remote person gained access. I found that he had installed more remote access back-doors but at no time had he touched any files with patient data before the plug was pulled. We backed up the important data and wiped the computer clean.<br><br>*Note details have been changed to protect privacy
