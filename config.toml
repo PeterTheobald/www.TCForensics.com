@@ -1,5 +1,5 @@
 # Site settings.
-baseurl = "http://test.TCForensics.com"
+baseurl = "http://www.TCForensics.com"
 languageCode = "en-us"
 title = "TCForensics"
 theme = "hugo-agency-theme"
