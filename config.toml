@@ -1,5 +1,5 @@
 # Site settings.
-baseurl = "http://test.TCForensics.com"
+baseurl = "http://www.TCForensics.com"
 languageCode = "en-us"
 title = "TCForensics"
 theme = "hugo-agency-theme"
@@ -18,7 +18,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Peter Theobald TC Forensic"
+  name = "Peter Theobald TC Forensics"
   description = "Digital and Computer Forensics"
 
   # Link custom assets relative to /static
@@ -51,8 +51,8 @@ googleAnalytics = ""
     #logo = "logo.svg"
     services = "Services"
     portfolio = "Sample-Cases"
-    about = "About-TCF"
-    team = "Peter-Theobald"
+    #about = "About-TCF"
+    team = "About-TCF"
     contact = "info@TCForensics.com (516) 762-3187"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -126,13 +126,12 @@ googleAnalytics = ""
       category = "Category"
       buttonText = "Close project"
 
-
     # About section
   [params.about]
-    enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    enable = false
+    title = "About-TCF"
+    subtitle = "Delivering expertise in Digital Forensics."
+    endpoint = "Call us<br>for a free<br>consultation"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -166,57 +165,37 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    center = true
+    title = "TC Forensics"
+    subtitle = "Delivering expertise in digital forensics"
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      img = "headshot-circleframe 360x360.png"
+      name = "Peter Theobald"
+      position = "Digital Forensic Expert<br>Software Engineer"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Peter J. Theobald, ACE/AME is a Digital Forensics Analyst specializing in forensic computer examinations and data recovery. TC Forensics offers investigative services and expert advice on matters related to recovering hidden, destroyed, or lost data in connection with a wide variety of litigated matters.<br>Mr. Theobald has 30 years experience in software development and computer network security. Mr. Theobald has been court appointed as a computer forensic expert in Nassau, Suffolk, and New York County.<ul class="list-inline social-buttons"><li>Concise Resume: [<i class="fa fa-file-pdf-o"></i>](/img/PeterTheobald-resume.pdf)</li><li>Full CV for legal matters: [<i class="fa fa-file-pdf-o"></i>](/img/PeterTheobald-cv.pdf)</li></ul>"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+        ["fa-linkedin", "https://www.linkedin.com/in/peterjtheobald/"],
+		["fa-github", "https://github.com/petertheobald/"],
+        ["fa-twitter", "https://twitter.com/peterjtheobald"]
+	]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
+ 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -245,7 +224,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "For a free consultation."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -266,7 +245,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "info@tcforensics.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -300,7 +279,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]

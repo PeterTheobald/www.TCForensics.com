@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on TCForensics</title>
-    <link>http://test.TCForensics.com/categories/</link>
+    <link>http://www.TCForensics.com/categories/</link>
     <description>Recent content in Categories on TCForensics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://test.TCForensics.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.TCForensics.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
