@@ -1,5 +1,5 @@
 # Site settings.
-baseurl = "http://www.TCForensics.com"
+baseurl = "https://www.TCForensics.com"
 languageCode = "en-us"
 title = "TCForensics"
 theme = "hugo-agency-theme"
@@ -189,7 +189,7 @@ googleAnalytics = ""
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/peterjtheobald/"],
 		["fa-github", "https://github.com/petertheobald/"],
-        ["fa-twitter", "https://twitter.com/peterjtheobald"]
+        ["fa-twitter", "https://twitter.com/ControlAltPete"]
 	]
 
  
