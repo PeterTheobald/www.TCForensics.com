@@ -76,7 +76,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = ""
+    title = "..."
     subtitle = "ATTENTION: TC FORENSICS IS NO LONGER PROVIDING DIGITAL FORENSICS SERVICES""
     buttonText = "Tell me more"
 
